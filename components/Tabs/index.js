@@ -14,10 +14,11 @@ function createTabComponent(arr) {
     textHolder.textContent = arr
     tabDiv.append(textHolder)
     tabDiv.classList.add('tab')
-    console.log(tabDiv)
-
+    // console.log(tabDiv)
+    const spann = document.querySelector('.title')
     tabDiv.addEventListener("click", event => {
         tabDiv.classList.toggle('active-tab');
+
     })
     return tabDiv
 }
@@ -30,7 +31,7 @@ axios.get("https://lambda-times-backend.herokuapp.com/topics")
         res.data.topics.forEach(item => {
             entry.append(createTabComponent(item))
         })
-        console.log('The data returned:', res)
+        // console.log('The data returned:', res)
 
     })
     .catch(err => {
