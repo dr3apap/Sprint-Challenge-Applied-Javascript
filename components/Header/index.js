@@ -24,11 +24,11 @@ function Header() {
     divHeader.append(headerSpan)
     divHeader.append(heading)
     divHeader.append(secondSpan)
-    console.log(divHeader)
+    // console.log(divHeader)
     return divHeader
 }//Header code ends
 Header()
 
 const headerContainer = document.querySelector('.header-container')
-headerContainer.append('divHeader')
-console.log(headerContainer)
+headerContainer.append(Header())
+// console.log(headerContainer)
