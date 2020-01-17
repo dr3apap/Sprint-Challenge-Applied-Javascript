@@ -8,7 +8,7 @@ This challenge allows you to practice the concepts and techniques learned over t
 
 This is an individual assessment. All work must be your own. Your challenge score is a measure of your ability to work independently using the material covered through this sprint. You need to demonstrate proficiency in the concepts and objectives introduced and practiced in preceding days.
 
-You are not allowed to collaborate during the Sprint Challenge. However, you are encouraged to follow the twenty-minute rule and seek support from your Tead Lead and Instructor in your cohort help channel on Slack. Your work reflects your proficiency in Applied JavaScript.
+You are not allowed to collaborate during the Sprint Challenge. However, you are encouraged to follow the twenty-minute rule and seek support from your Team Lead and Instructor in your cohort help channel on Slack. Your work reflects your proficiency in Applied JavaScript.
 
 You have three hours to complete this challenge. Plan your time accordingly.
 
@@ -27,16 +27,21 @@ In meeting the minimum viable product (MVP) specifications listed below, you sho
 Demonstrate your understanding of this week's concepts by answering the following free-form questions.
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
-
 1. What is the DOM?
 
-2. What is an event?
+    It's the document object model. It is a tree of all the Nodes or elements on the page. It is created from the HTML and can be read from and manipulated by Javascript and other languages. All changes to the DOM show up on the web browser.
+2. What is an event?	
 
-3. What is an event listener?
+    An event is a user interaction through the browser like a click, loading, drag, etc.
+3. What is an event listener?	
 
-4. Why would we convert a NodeList into an Array?
+    An event listener is a block of code that runs when the specified event happens and triggers it.
+4. Why would we convert a NodeList into an Array?	NodeList into an Array?
 
-5. What is a component?
+    NodeLists don't have all the methods that Arrays have. Arrays are easier to work with.
+5. What is a component?	
+
+    A component is a modular piece of a website whose code is relatively self-contained and can be easily re-used.
 
 ### Git Set up
 
