@@ -18,7 +18,7 @@ function Header() {
     divHeader.classList.add('header'),
         headerSpan.classList.add('date'),
         secondSpan.classList.add('temp')
-    headerSpan.textContent = 'MARCH 28, 2019'
+    headerSpan.textContent = 'MARCH 28, 2020'
     heading.textContent = 'Lambda Times'
     secondSpan.textContent = '98°'
     divHeader.append(headerSpan)
